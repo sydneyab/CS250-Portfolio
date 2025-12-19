@@ -1,9 +1,13 @@
-# CS250-Portfolio
-How do I interpret user needs and implement them into a program? How does creating “user stories” help with this?
-I interpret user needs by focusing on what the end user is really trying to achieve, not just the technical details. Writing user stories makes this easier because they follow a simple structure: “As a user, I want to ___ so that ___.” This format helps me clearly see the value behind each feature and keeps development tied to the user’s goals instead of just adding functions without purpose.
+## Portfolio Reflection – The Gaming Room
 
-How do I approach developing programs? What Agile processes do I hope to incorporate into my future development work?
-I approach developing programs step by step, starting with small, working features and then improving them over time. Agile has shown me the benefit of working in short sprints, testing often, and adjusting quickly when requirements change. Going forward, I want to keep using user stories, retrospectives, and sprint planning. These processes keep development flexible, reduce wasted effort, and make it easier to deliver something useful at every stage.
+The client for this project was The Gaming Room, a company that wanted to expand their existing game, Draw It or Lose It, into a web-based application that could support multiple platforms. The software needed to allow multiple users to play at the same time while ensuring only one instance of the game service was running. It also needed to enforce unique names for games, teams, and players and be designed in a way that could scale as the application grows.
 
-What does it mean to be a good team member in software development?
-Being a good team member means communicating often, staying transparent, and being willing to adapt when things change. It’s about collaborating with the group instead of just focusing on my own tasks. A strong team member looks out for blockers, offers help when others are stuck, and keeps the project moving forward. I’ve learned that good teamwork is just as important as coding skills when it comes to delivering quality software.
+One thing I did particularly well when developing this documentation was clearly outlining the system requirements and constraints before making design decisions. Breaking the problem down early helped keep the design organized and made it easier to explain the reasoning behind architectural choices.
+
+Working through a full design document before writing code was helpful because it forced me to think through the structure of the system ahead of time. Planning the architecture, class relationships, and constraints first made the code easier to understand and reduced the need for rework later.
+
+If I could revise one part of the documentation, I would expand the platform evaluation section to include more detail about performance tradeoffs and long-term maintenance. This would make the recommendation more useful for real-world decision making.
+
+User needs were addressed by focusing on scalability, reliability, and ease of use. Considering user needs is important because software that ignores them may work technically but fail in practice.
+
+I approached the design by identifying requirements first and then breaking the system into smaller components using object-oriented principles. In the future, I would continue using techniques such as UML diagrams, incremental design, and early planning when designing similar applications.
